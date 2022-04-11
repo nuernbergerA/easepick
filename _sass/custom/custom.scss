@@ -148,27 +148,27 @@ code.language-plaintext {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  html body {
     background-color: #1c2127;
   }
 
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  .site-header a {
+  html body,
+  html h1,
+  html h2,
+  html h3,
+  html h4,
+  html h5,
+  html h6,
+  html .site-header a {
     color: #adbac7;
   }
 
-  hr {
+  html hr {
     background-color: #2d333b;
     height: 2px;
   }
 
-  a {
+  html a {
     color: #539bf5;
 
     &:not([class]) {
@@ -176,18 +176,18 @@ code.language-plaintext {
     }
   }
 
-  blockquote.inform {
+  html blockquote.inform {
     background-image: linear-gradient(rgba(174, 124, 20, 0.15), rgba(174, 124, 20, 0.15));
     background-color: transparent;
     border-color: #966600;
   }
 
-  .main-content .anchor-heading svg,
-  .icon {
+  html .main-content .anchor-heading svg,
+  html .icon {
     color: #539bf5;
   }
 
-  .site-header {
+  html .site-header {
     background-color: #2d333b;
     border-bottom-left-radius: 10px;
 
@@ -197,26 +197,26 @@ code.language-plaintext {
     }
   }
 
-  #bg {
+  html #bg {
     transform: scaleX(1);
     background-blend-mode: exclusion;
   }
 
-  .main-header {
+  html .main-header {
     background-color: #2d333b;
   }
 
-  .main-content-wrap,
-  .nav-list .nav-list-item {
+  html .main-content-wrap,
+  html .nav-list .nav-list-item {
     background-color: #1c2127;
   }
 
-  .site-header,
-  .main-header {
+  html .site-header,
+  html .main-header {
     border-bottom-color: #22272d;
   }
 
-  .nav-list {
+  html .nav-list {
     .nav-list-item {
       &:first-child {
         border-top-left-radius: 10px;
@@ -247,25 +247,25 @@ code.language-plaintext {
     }
   }
 
-  th,
-  td,
-  thead th {
+  html th,
+  html td,
+  html thead th {
     background-color: #2d333b;
     border-color: #1c2127;
   }
 
-  div.highlighter-rouge {
+  html div.highlighter-rouge {
     background-color: #2d333b;
   }
 
-  .highlight {
+  html .highlight {
     .nx,
     .na {
       color: #adbac7;
     }
   }
 
-  code {
+  html code {
     background-color: #2d333b;
 
     &.language-plaintext {
@@ -274,26 +274,7 @@ code.language-plaintext {
     }
   }
 
-  a.kofi-button {
+  html a.kofi-button {
     background-color: #347d39;
   }
 }
-/*#bg {
-  background-color: #27262b;
-  background-image: url(../images/bg-dark.webp);
-}
-
-:root {
-  --color-profile-color-modes-toggle-moon: #ffdf5d;
-  --color-profile-color-modes-toggle-track-bg: #333;
-  --color-profile-color-modes-toggle-thumb-bg: #2f363d;
-  --color-profile-color-modes-toggle-track-border: #607d8b;
-}
-
-.main-content-wrap {
-  background-color: #27262b;
-}
-
-.site-footer {
-  color: #fafafa;
-}*/
