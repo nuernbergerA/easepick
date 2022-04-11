@@ -36,7 +36,7 @@ permalink: /examples/basic-hotel-calendar
           '[js.date.yyyy]-[js.date.mm]-19',
           '[js.date.yyyy]-[js.date.mm]-20',
           '[js.date.yyyy]-[js.date.mm]-25',
-          '[js.date.yyyy]-[js.date.mm]-27',
+          '[js.date.yyyy]-[js.date.mm]-28',
       ].map(d => {
           if (d instanceof Array) {
             const start = new DateTime(d[0], 'YYYY-MM-DD');
