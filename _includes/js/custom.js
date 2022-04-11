@@ -30,7 +30,7 @@ const demo_cfg = {
       documentClick: false,
       format: 'D MMM YYYY',
       inline: true,
-      plugins: ['RangePlugin'],
+      plugins: ['RangePlugin', 'AmpPlugin'],
       setup(picker) {
         picker.ui.wrapper.style.position = 'relative';
       }
