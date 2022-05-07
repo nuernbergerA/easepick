@@ -2,7 +2,7 @@
 layout: default
 nav: Configurator
 title: "Configurator"
-description: ""
+description: "easepick configurator."
 nav_order: 2
 permalink: /configurator
 ---

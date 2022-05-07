@@ -11,7 +11,7 @@ let bookedDates = [
   `${vYear}-${vMonth}-19`,
   `${vYear}-${vMonth}-20`,
   `${vYear}-${vMonth}-25`,
-  `${vYear}-${vMonth}-27`,
+  `${vYear}-${vMonth}-28`,
 ];
 
 const demo_cfg = {
