@@ -20,7 +20,7 @@ Date picker - tiny size, no dependencies
 ## Features
 
 - No dependencies
-- Using [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
+- Uses [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
 - Supports plugins
 
 ## Browser compatibility

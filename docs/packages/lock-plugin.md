@@ -103,8 +103,8 @@ const picker = new easepick.create({
 
 | Name | Type | Default | Description
 | --- | :---: | :---: | ---
-| [minDate](#option-minDate) | Date <br/> string <br/> number | null | The minimum/earliest date that can be selected. <br/> Date Object or Unix Timestamp (with milliseconds) or ISO String.
-| [maxDate](#option-maxDate) | Date <br/> string <br/> number | null | The maximum/latest date that can be selected. <br/> Date Object or Unix Timestamp (with milliseconds) or ISO String.
+| [minDate](#option-minDate) | Date <br/> string <br/> number | null | The minimum/earliest date that can be selected. <br/> Date Object or Unix Timestamp (with milliseconds) or ISO String. <br/> When a date is provided as a string, it must be equal to the `format` option.
+| [maxDate](#option-maxDate) | Date <br/> string <br/> number | null | The maximum/latest date that can be selected. <br/> Date Object or Unix Timestamp (with milliseconds) or ISO String. <br/> When a date is provided as a string, it must be equal to the `format` option.
 | [minDays](#option-minDays) | number | null | The minimum days of the selected range.
 | [maxDays](#option-maxDays) | number | null | The maximum days of the selected range.
 | [selectForward](#option-selectForward) | boolean | false | Select second date after the first selected date.
